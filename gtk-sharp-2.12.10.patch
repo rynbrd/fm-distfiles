@@ -1,0 +1,72 @@
+diff -urNp a/atk/atk-sharp-2.0.pc.in b/atk/atk-sharp-2.0.pc.in
+--- a/atk/atk-sharp-2.0.pc.in	2012-07-16 16:16:26.922722855 -0500
++++ b/atk/atk-sharp-2.0.pc.in	2012-07-16 14:39:53.835775594 -0500
+@@ -1,4 +1,4 @@
+-prefix=${pcfiledir}/../..
++prefix=@prefix@
+ exec_prefix=${prefix}
+ libdir=${exec_prefix}/lib
+ gapidir=${prefix}/share/gapi-2.0
+diff -urNp a/gdk/gdk-sharp-2.0.pc.in b/gdk/gdk-sharp-2.0.pc.in
+--- a/gdk/gdk-sharp-2.0.pc.in	2012-07-16 16:16:26.923722846 -0500
++++ b/gdk/gdk-sharp-2.0.pc.in	2012-07-16 14:40:15.715775409 -0500
+@@ -1,4 +1,4 @@
+-prefix=${pcfiledir}/../..
++prefix=@prefix@
+ exec_prefix=${prefix}
+ libdir=${exec_prefix}/lib
+ gapidir=${prefix}/share/gapi-2.0
+diff -urNp a/glade/glade-sharp-2.0.pc.in b/glade/glade-sharp-2.0.pc.in
+--- a/glade/glade-sharp-2.0.pc.in	2009-01-07 10:54:20.000000000 -0600
++++ b/glade/glade-sharp-2.0.pc.in	2012-07-16 14:40:08.700775465 -0500
+@@ -1,4 +1,4 @@
+-prefix=${pcfiledir}/../..
++prefix=@prefix@
+ exec_prefix=${prefix}
+ libdir=${exec_prefix}/lib
+ gapidir=${prefix}/share/gapi-2.0
+diff -urNp a/glib/glib-sharp-2.0.pc.in b/glib/glib-sharp-2.0.pc.in
+--- a/glib/glib-sharp-2.0.pc.in	2009-01-07 10:54:07.000000000 -0600
++++ b/glib/glib-sharp-2.0.pc.in	2012-07-16 14:39:37.079775753 -0500
+@@ -1,4 +1,4 @@
+-prefix=${pcfiledir}/../..
++prefix=@prefix@
+ exec_prefix=${prefix}
+ libdir=${exec_prefix}/lib
+ gapidir=${prefix}/share/gapi-2.0
+diff -urNp a/gtk/gtk-sharp-2.0.pc.in b/gtk/gtk-sharp-2.0.pc.in
+--- a/gtk/gtk-sharp-2.0.pc.in	2012-07-16 16:16:26.924722835 -0500
++++ b/gtk/gtk-sharp-2.0.pc.in	2012-07-16 14:39:58.773775542 -0500
+@@ -1,4 +1,4 @@
+-prefix=${pcfiledir}/../..
++prefix=@prefix@
+ exec_prefix=${prefix}
+ libdir=${exec_prefix}/lib
+ gapidir=${prefix}/share/gapi-2.0
+diff -urNp a/gtkdotnet/gtk-dotnet-2.0.pc.in b/gtkdotnet/gtk-dotnet-2.0.pc.in
+--- a/gtkdotnet/gtk-dotnet-2.0.pc.in	2009-01-07 10:54:14.000000000 -0600
++++ b/gtkdotnet/gtk-dotnet-2.0.pc.in	2012-07-16 14:40:22.426775342 -0500
+@@ -1,4 +1,4 @@
+-prefix=${pcfiledir}/../..
++prefix=@prefix@
+ exec_prefix=${prefix}
+ libdir=${exec_prefix}/lib
+ 
+diff -urNp a/pango/pango-sharp-2.0.pc.in b/pango/pango-sharp-2.0.pc.in
+--- a/pango/pango-sharp-2.0.pc.in	2012-07-16 16:16:26.924722835 -0500
++++ b/pango/pango-sharp-2.0.pc.in	2012-07-16 14:40:03.771775515 -0500
+@@ -1,4 +1,4 @@
+-prefix=${pcfiledir}/../..
++prefix=@prefix@
+ exec_prefix=${prefix}
+ libdir=${exec_prefix}/lib
+ gapidir=${prefix}/share/gapi-2.0
+diff -urNp a/parser/gapi-2.0.pc.in b/parser/gapi-2.0.pc.in
+--- a/parser/gapi-2.0.pc.in	2009-01-07 10:54:11.000000000 -0600
++++ b/parser/gapi-2.0.pc.in	2012-07-16 14:39:48.235775649 -0500
+@@ -1,4 +1,4 @@
+-prefix=${pcfiledir}/../..
++prefix=@prefix@
+ 
+ 
+ Name: GAPI
